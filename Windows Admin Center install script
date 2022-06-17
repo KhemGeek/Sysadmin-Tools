@@ -1,0 +1,6 @@
+## Download the msi file
+Invoke-WebRequest 'https://aka.ms/WACDownload' -OutFile "$pwd\WAC.msi"
+
+## install windows admin center
+$msiArgs = @("/i", "$pwd\WAC.msi", "/qn", "/L*v", "log.txt", "SME_PORT=6516", "SSL_CERTIFICATE_OPTION=generate")
+Start-Process msiexec.exe -Wait -ArgumentList $msiArgs
