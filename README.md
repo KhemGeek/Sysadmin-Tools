@@ -2,5 +2,5 @@
 This is a repository of tools and scripts for System Administration
 
 ## Powershell Scripts
-* [AD Deployment Powershell Script](Powershell Scripts/ADDeployment.ps1)
+* [AD Deployment Powershell Script](Powershell-Scripts/ADDeployment.ps1)
 * 
