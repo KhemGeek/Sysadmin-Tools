@@ -6,13 +6,13 @@ Install-ADDSForest `
 
 -DatabasePath "C:\Windows\NTDS" `
 
--DomainMode "WinThreshold" `
+-DomainMode "YourDomain" `
 
--DomainName "VirtualGyanis.Com" `
+-DomainName "YourDomain.com" `
 
--DomainNetbiosName "VIRTUALGYANIS" `
+-DomainNetbiosName "YOURDOMAIN" `
 
--ForestMode "WinThreshold" `
+-ForestMode "YourDomain" `
 
 -InstallDns:$true `
 
