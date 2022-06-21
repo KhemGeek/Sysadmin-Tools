@@ -2,5 +2,5 @@
 This is a repository of tools and scripts for System Administration
 
 ## Powershell Scripts
-* [AD Deployment Powershell Script](Khemgeek/Sysadmin-Tools/Powershell-Scripts/AD-Deployment-Powershell-Script)
+* [AD Deployment Powershell Script](Khemgeek/Sysadmin-Tools/Powershell-Scripts/ADDeployment.ps1)
 * 
